@@ -1,3 +1,5 @@
-const API_URL_LAUNCHES = `https://spacex-rest-api.netlify.app/api/launchpads`;
+import { config } from './environment';
+
+const API_URL_LAUNCHES = `${config.apiUrl}/api/launches`;
 
 export { API_URL_LAUNCHES };
