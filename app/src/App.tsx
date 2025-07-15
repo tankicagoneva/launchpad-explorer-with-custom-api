@@ -14,7 +14,7 @@ function App() {
       return <Navigate to="/astronaut-dashboard" replace />;
     }
     if (userRole === 'admin') {
-      return <Navigate to="/dashboard" replace />;
+      return <Navigate to="/admin-dashboard" replace />;
     }
   }
 
