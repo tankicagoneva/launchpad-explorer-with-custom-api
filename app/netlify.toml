@@ -2,3 +2,9 @@
 base = "app"
 publish = "dist"
 command = "npm run build"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://spacex-rest-api.netlify.app/api/launchpads:splat"
+  status = 200
+  force = true
