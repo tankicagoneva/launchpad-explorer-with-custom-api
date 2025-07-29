@@ -1,6 +1,5 @@
 "use client";
 
-import logo from '@/assets/logo.svg';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Earth, MapPin, MapPinned, Rocket } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -32,7 +31,6 @@ export function LaunchInformation({ data }: LaunchInformationProps) {
 
   return (
     <div className='space-y-8 p-8 h-screen'>
-          <img src={logo} alt='Launchpad explorer logo' width='300px;' />
 
     <div className="overflow-hidden rounded-[0.5rem] border ">
     <div className="flex-col md:flex">
