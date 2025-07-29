@@ -6,7 +6,7 @@ import { ThemeProvider } from './ui/theme-provider';
 
 const Layout = () => {
   const { user } = useUser();
-  const userRole = user?.publicMetadata?.role as string;
+  const userRole = user?.publicMetadata?.role as string | undefined;
 
   return (
     <ThemeProvider defaultTheme="system" storageKey="ui-theme">
